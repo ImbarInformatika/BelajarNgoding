@@ -1,0 +1,40 @@
+#membuat tipe data set
+nama = {"imbar", 10, False, 5, "pai"}
+
+#menampilkan set dengan perulangan
+for i in nama :
+	print(i)
+
+nama = list(nama)
+
+i = 0
+while i < len(nama) :
+	print(nama[i])
+	i += 1
+#mengapdate set/mengubah
+nama = list(nama)
+
+nama [1] = "buaya"
+print(nama)
+
+nama = set(nama)
+
+#menambahkan data set;
+nama.add ("soko")
+print(nama)
+
+nama.update ({5, "mita"})
+print(nama)
+
+#menghapus data set
+nama.remove("mita")
+print(nama)
+
+nama.discard ("soko")
+print(nama)
+
+nama.pop()tr#
+print(nama)
+
+nama.clear()
+print(nama)
